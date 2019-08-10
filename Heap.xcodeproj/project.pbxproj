@@ -14,6 +14,7 @@
 		A137F5B722FF02B900353A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A137F5B522FF02B900353A08 /* LaunchScreen.storyboard */; };
 		A137F5C222FF02B900353A08 /* HeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137F5C122FF02B900353A08 /* HeapTests.swift */; };
 		A137F5CD22FF02B900353A08 /* HeapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137F5CC22FF02B900353A08 /* HeapUITests.swift */; };
+		A137F5DB22FF047F00353A08 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137F5DA22FF047F00353A08 /* Heap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A137F5C822FF02B900353A08 /* HeapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A137F5CC22FF02B900353A08 /* HeapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapUITests.swift; sourceTree = "<group>"; };
 		A137F5CE22FF02B900353A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A137F5DA22FF047F00353A08 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A137F5B322FF02B900353A08 /* Assets.xcassets */,
 				A137F5B522FF02B900353A08 /* LaunchScreen.storyboard */,
 				A137F5B822FF02B900353A08 /* Info.plist */,
+				A137F5DA22FF047F00353A08 /* Heap.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A137F5DB22FF047F00353A08 /* Heap.swift in Sources */,
 				A137F5AF22FF02B700353A08 /* ViewController.swift in Sources */,
 				A137F5AD22FF02B700353A08 /* AppDelegate.swift in Sources */,
 			);
@@ -439,7 +443,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Heap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Heap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

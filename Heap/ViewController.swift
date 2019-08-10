@@ -12,7 +12,29 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        var heap = Heap<Int>(order: >)
+        for i in 1...7 {
+            heap.insert(i)
+        }
+        
+        print(heap)
+        
+        print("删除根部")
+        while !heap.isEmpty {
+            if let num = heap.removePeek() {
+                print(num)
+            }
+        }
+        
+//        print("删除元素2")
+//        let index = heap.index(of: 2) ?? 0
+//        if let remove = heap.remove(at: index) {
+//            print(remove)
+//        }else {
+//            print("没有找到要删除的数据")
+//        }
+        
     }
 
 
